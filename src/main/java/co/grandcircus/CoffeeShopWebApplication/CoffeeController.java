@@ -38,7 +38,12 @@ public class CoffeeController {
 			@RequestParam("lastName") String lName,
 			@RequestParam("email") String emailAddress,
 			@RequestParam("phone") int phoneNumber,
-			@RequestParam("password") String passwordString) {
+			@RequestParam("password") String passwordString,
+			@RequestParam("birthday") String bDay,
+			@RequestParam("address") String streetAddress,
+			@RequestParam("state") String stateName,
+			@RequestParam("zipCode") int zCode,
+			@RequestParam("gender") String genderType) {
 		
 			User newUser = new User();
 		
